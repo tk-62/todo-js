@@ -13,6 +13,7 @@ button {
   border-radius: 16px;
   border: none;
   padding: 4px 16px;
+  margin-right: 8px;
 }
 
 button:hover {
@@ -30,7 +31,7 @@ button:hover {
   border-radius: 8px;
 }
 
-.incomplate-area {
+.incomplete-area {
   background-color: #c6ffe2;
   width: 400px;
   min-height: 200px;
@@ -39,7 +40,7 @@ button:hover {
   border-radius: 8px;
 }
 
-.complate-area {
+.complete-area {
   background-color: #ffffe0;
   width: 400px;
   min-height: 200px;
@@ -58,8 +59,14 @@ button:hover {
 .list-row {
   display: flex;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 p {
   margin-right: 8px;
+}
+
+li {
+  margin-right: 8px;
+  list-style: none;
 }
